@@ -12,6 +12,7 @@ body {
   color: #333;
   line-height: 2.0;
   letter-spacing: 0.1em;
+  max-width: 1440px;
 }
 
 *,
@@ -67,7 +68,7 @@ a:hover {
 .content-wrapper {
   width: 95%;
   margin: 0 auto;
-  max-width: 1400px;
+  max-width: 1200px;
 }
 
 section h2 {
@@ -169,16 +170,11 @@ header nav li a:hover {
 
 .mainvisual {
   position: relative;
+  text-align: center;
 }
 
 .mainvisual img {
-  height: 700px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: 0 15%;
-     object-position: 0 15%;
-  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
-  clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
+  max-width: 1400px;
 }
 
 .mainvisual h2 {
